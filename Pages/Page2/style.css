@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    background-color: #a4a4a4;
+    padding: 10px 2% 10px 2%;
+}
+
+.container{
+    width: 100%;
+    max-width: 0 1024px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo1{
+    float: left;
+    background-color: rgb(35, 208, 0);
+    height: 70px;
+    width: 160px;
+}
+
+.logo2{
+    float: right;
+    background-color: yellow;
+    height: 70px;
+    width: 160px;
+}
+
+@media screen and (max-width:768px){
+    header{
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .logo1{
+        margin: 0 auto;
+        float: none;
+        display: inline-block;
+        background-color: red;
+    }
+
+    .logo2{
+        margin: 0 auto;
+        float: none;
+        display: inline-block;
+        background-color: rgb(255, 11, 255);
+    }
+}
